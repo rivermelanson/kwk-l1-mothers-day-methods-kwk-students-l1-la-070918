@@ -6,10 +6,20 @@
 # end 
 
 # mothers_day
- def mothers_day
-   puts "who is this card for?"
-   person = gets.strip 
-   puts "happy mothers day, #{person}"
- end 
+
+
+
+# def mothers_day
+#   puts "who is this card for?"
+#   person = gets.strip 
+#   puts "happy mothers day, #{person}"
+# end 
  
- mothers_day 
+# mothers_day 
+
+def mothers_day(person = "mom"�)
+  puts "who is this card for?"
+  person = gets.strip
+   puts "Happy mother's day #{person}!"
+end 
+mothers_day
