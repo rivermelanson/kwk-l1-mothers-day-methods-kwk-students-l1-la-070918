@@ -9,7 +9,7 @@
  def mothers_day
    puts "who is this card for?"
    person = gets.strip 
-   puts "happy mothers day. #{person}"
+   puts "happy mothers day, #{person}"
  end 
  
  mothers_day 
